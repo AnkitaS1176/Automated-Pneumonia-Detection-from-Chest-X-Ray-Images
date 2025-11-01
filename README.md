@@ -19,6 +19,14 @@ The AI model processes the image and provides a prediction ('PNEUMONIA' or 'NORM
 Click "Analyze Another Image" to reset the interface and test a new X-ray.
 
 # Results Summary
+Training Set:   5,216 images (26.1% Normal, 73.9% Pneumonia)
+Validation Set: 16 images (50% Normal, 50% Pneumonia)
+Test Set:       624 images (37.5% Normal, 62.5% Pneumonia)
+
+Accuracy: 93.59%
+Parameters: 24.11M (only 0.52M trainable)
+Inference Time: 22ms
+https://sparkling-gray-r6gydoxqpa.edgeone.app/
 [<img width="1062" height="360" alt="image" src="https://github.com/user-attachments/assets/dffcc0b8-a9ee-4bfe-a18e-1789a293feeb" />]
 (https://wrong-emerald-hf6oxwf9nw.edgeone.app/)
 
