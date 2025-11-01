@@ -19,16 +19,29 @@ The AI model processes the image and provides a prediction ('PNEUMONIA' or 'NORM
 Click "Analyze Another Image" to reset the interface and test a new X-ray.
 
 # Results Summary
+<img width="719" height="575" alt="image" src="https://github.com/user-attachments/assets/9b28f34d-f22f-4801-b9d7-af7ce43d7fd9" />
+
 Training Set:   5,216 images (26.1% Normal, 73.9% Pneumonia)
 Validation Set: 16 images (50% Normal, 50% Pneumonia)
 Test Set:       624 images (37.5% Normal, 62.5% Pneumonia)
 
+
+<img width="850" height="792" alt="image" src="https://github.com/user-attachments/assets/e16b00d5-f41c-45a7-bf62-aceb3b12faa8" />
+
 Accuracy: 93.59%
 Parameters: 24.11M (only 0.52M trainable)
 Inference Time: 22ms
-https://sparkling-gray-r6gydoxqpa.edgeone.app/
+
 [<img width="1062" height="360" alt="image" src="https://github.com/user-attachments/assets/dffcc0b8-a9ee-4bfe-a18e-1789a293feeb" />]
-(https://wrong-emerald-hf6oxwf9nw.edgeone.app/)
+
+ResNet50 Confusion Matrix
+<img width="519" height="582" alt="image" src="https://github.com/user-attachments/assets/4ba04589-9693-4ca6-86f0-b26da29755c8" />
+
+Model comparison
+<img width="607" height="549" alt="image" src="https://github.com/user-attachments/assets/e26ab4df-cbb6-461e-9421-a208272a3859" />
+
+
+
 
 # Conclusion
 The project successfully demonstrates that deep learning, particularly transfer learning with architectures like ResNet50, can achieve high accuracy in detecting pneumonia from chest X-rays. A key learning is the importance of high recall in medical diagnostic tools to minimize the chance of false negatives, a metric where all models performed well. This tool has the potential to act as a valuable assistant to radiologists, improving the speed and efficiency of diagnostic workflows.
